@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<style>
+		body{
+			font-family: 'Lato', sans-serif;
+		}
+		.navbar-default {
+    		background-color: rgb(241, 215, 190);
+    		border-top-color: rgb(241, 215, 190);
+    		border-bottom-color: white;
+
+		}
+		.navbar-default .navbar-nav>.active>a{
+			background-color: white;
+		}
+		.navbar-default .navbar-brand {
+    		color: white;
+    		text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+						 0px 8px 13px rgba(0,0,0,0.1),
+						 0px 18px 23px rgba(0,0,0,0.1);
+		}
+		.jumbotron {
+			background-color: rgb(241, 215, 190);
+			background: url(jakub-dziubak-394720-unsplash.jpg);
+			background-size: cover;
+			background-position: center;
+			/*background: linear-gradient(180deg, rgba(241,215,190,1) 19%, 
+				                                rgba(255,255,255,1) 83%, 
+				                                rgba(254,255,255,1) 100%);*/
+			/*background: radial-gradient(circle, rgba(241,215,190,1) 34%, rgba(255,255,255,1) 53%, rgba(254,255,255,1) 100%);*/
+		}
+		.jumbotron h1{
+			color: white;
+			text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+						 0px 8px 13px rgba(0,0,0,0.1),
+						 0px 18px 23px rgba(0,0,0,0.1);
+			text-align: center;
+			font-size: 7em;
+		}
+		.btn-success {
+			background-color: rgb(241, 215, 190);
+			border-color: #f8f8f8;
+			text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+						 0px 8px 13px rgba(0,0,0,0.1),
+						 0px 18px 23px rgba(0,0,0,0.1);
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><strong><i class="fas fa-mug-hot"></i> Coffe Shop</strong></a>
+	    </div>
+
+	    
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	      	<li><a href="LandingPage.html">Home</a></li>
+	      	<li><a href="AboutUs.html">About</a></li>
+	      	<li class="active"><a href="Menu.html">Menu</a></li>
+	      </ul>	
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="Register.html">Sign Up <i class="fas fa-user-plus"></i></a></li>
+	        <li><a href="Login.html">Login <i class="fas fa-user"></i></a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+				<h1><strong>Menu</strong></h1>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="thumbnail" align="center">	
+					<img src="nitin-pariyar-618768-unsplash.jpg">
+					<h3>Espresso <button class="btn btn-default btn-lg"><i class="fas fa-mug-hot"></i> Order!</button></h3>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="thumbnail" align="center">
+					<img src="taylor-franz-91172-unsplash.jpg">
+					<h3>Latte macchiato <button class="btn btn-default btn-lg"><i class="fas fa-mug-hot"></i> Order!</button></h3>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="thumbnail" align="center">
+					<img src="marco-secchi-541145-unsplash.jpg">
+					<h3>Turkish coffee <button class="btn btn-default btn-lg"><i class="fas fa-mug-hot"></i> Order!</button></h3>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>

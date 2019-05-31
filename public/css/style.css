@@ -1,0 +1,23 @@
+body {
+	background: white;
+	border: 10px solid #f1f1f1;
+	padding: 30px;
+	margin: 10% 30%;
+	text-align: -webkit-center;
+}
+
+label {
+	font-family: Tahoma;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h1 {
+	font-family: Trebuchet MS;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: #353533;
+	margin: 10px;
+}
+
+
